@@ -13,7 +13,7 @@ const AboutMe = () => {
                 <Typography variant="h4" gutterBottom>Pratyush Paliwal</Typography>
                 <Typography variant="h6" gutterBottom>Software DevOps Engineer</Typography>
                 <br /><br />
-                <Typography className="classic-font">
+                <Typography className="classic-text">
                     Hello there! I am a software engineer with a passion for industry standard software development and shipping products using DevOps practices. <br /> I have experience in building web applications using JavaScript, React-Redux, Django.
                     <br />My expertise is with Containerization and orchestration; building safe and secure container images for deployment using Docker and scaling them using Kubernetes. I have vast experience in assisting numerous application teams to onboard to end-to-end CI/CD architecture using GitLab CI.
                     <br />I also have a keen interest in building automations for in-house practices and have built numerous tools using Python and Shell scripting to automate the manual tasks involved in our team's day-to-day activities.
