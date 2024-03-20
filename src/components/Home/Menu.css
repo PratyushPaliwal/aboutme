@@ -1,0 +1,11 @@
+.menuButton {
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .menuButton:hover {
+    color: #967BB6;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
