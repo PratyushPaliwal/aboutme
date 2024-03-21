@@ -8,26 +8,26 @@ import './Menu.css';
 
 const Menu = () => {
     return (
-        <AppBar position="fixed" sx={{ bgcolor: 'black' }}>
+        <AppBar sx={{ bgcolor: 'black' }}>
             <Toolbar>
                 {/* Logo */}
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                     <img src={logoImg} style={{ width: "100px", height: "100px", marginBottom: "10px", marginTop: "10px" }} alt="Logo" />
                 </Typography>
                 {/* Menu Items */}
-                <Button className="menuButton" href="#section1">
+                <Button sx={{ color: 'white', marginRight: '10px',  '&:hover': {color: '#967BB6', cursor: 'pointer', fontWeight: 'bold'}}} href="#section1">
                     About Me
                 </Button>
-                <Button className="menuButton" href="#section2">
+                <Button sx={{ color: 'white', marginRight: '10px',  '&:hover': {color: '#967BB6', cursor: 'pointer', fontWeight: 'bold'}}} href="#section2">
                     Experience
                 </Button>
-                <Button className="menuButton" href="#section2">
+                <Button sx={{ color: 'white', marginRight: '10px',  '&:hover': {color: '#967BB6', cursor: 'pointer', fontWeight: 'bold'}}} href="#section2">
                     My Work
                 </Button>
-                <Button className="menuButton" href="#section2">
+                <Button sx={{ color: 'white', marginRight: '10px',  '&:hover': {color: '#967BB6', cursor: 'pointer', fontWeight: 'bold'}}} href="#section2">
                     Trainings
                 </Button>
-                <Button className="menuButton" href="#section2">
+                <Button sx={{ color: 'white', marginRight: '10px',  '&:hover': {color: '#967BB6', cursor: 'pointer', fontWeight: 'bold'}}} href="#section2">
                     Recognitions
                 </Button>
                 <Button sx={{ color: 'white', marginRight: '10px',  '&:hover': {color: '#967BB6', cursor: 'pointer', fontWeight: 'bold'}}} href="#section2">
