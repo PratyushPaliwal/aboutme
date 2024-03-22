@@ -14,22 +14,22 @@ const Menu = () => {
                             <img src={logoImg} style={{ width: "100px", height: "100px", marginBottom: "10px", marginTop: "10px" }} alt="Logo" />
                         </Typography>
                         {/* Menu Items */}
-                        <Button sx={{ color: 'white', marginRight: '10px', '&:hover': { color: '#967BB6', cursor: 'pointer', fontWeight: 'bold' } }} href="#section1">
+                        <Button sx={{ color: 'white', marginRight: '10px', '&:hover': { color: '#967BB6', cursor: 'pointer', fontWeight: 'bold' } }} href="#about-me">
                             About Me
                         </Button>
-                        <Button sx={{ color: 'white', marginRight: '10px', '&:hover': { color: '#967BB6', cursor: 'pointer', fontWeight: 'bold' } }} href="#section2">
+                        <Button sx={{ color: 'white', marginRight: '10px', '&:hover': { color: '#967BB6', cursor: 'pointer', fontWeight: 'bold' } }} href="#exp">
                             Experience
                         </Button>
-                        <Button sx={{ color: 'white', marginRight: '10px', '&:hover': { color: '#967BB6', cursor: 'pointer', fontWeight: 'bold' } }} href="#section2">
+                        <Button sx={{ color: 'white', marginRight: '10px', '&:hover': { color: '#967BB6', cursor: 'pointer', fontWeight: 'bold' } }} href="#mywork">
                             Interests
                         </Button>
-                        <Button sx={{ color: 'white', marginRight: '10px', '&:hover': { color: '#967BB6', cursor: 'pointer', fontWeight: 'bold' } }} href="#section2">
+                        <Button sx={{ color: 'white', marginRight: '10px', '&:hover': { color: '#967BB6', cursor: 'pointer', fontWeight: 'bold' } }} href="#train-recog">
                             Trainings
                         </Button>
-                        <Button sx={{ color: 'white', marginRight: '10px', '&:hover': { color: '#967BB6', cursor: 'pointer', fontWeight: 'bold' } }} href="#section2">
+                        <Button sx={{ color: 'white', marginRight: '10px', '&:hover': { color: '#967BB6', cursor: 'pointer', fontWeight: 'bold' } }} href="#train-recog">
                             Recognitions
                         </Button>
-                        <Button sx={{ color: 'white', marginRight: '10px', '&:hover': { color: '#967BB6', cursor: 'pointer', fontWeight: 'bold' } }} href="#section2">
+                        <Button sx={{ color: 'white', marginRight: '10px', '&:hover': { color: '#967BB6', cursor: 'pointer', fontWeight: 'bold' } }} href="#footer">
                             Let's Connect
                         </Button>
                         {/* Add more menu items as needed */}

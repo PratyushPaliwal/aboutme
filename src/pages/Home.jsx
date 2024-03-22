@@ -13,26 +13,26 @@ function Home() {
             <Menu />
             <div style={{ backgroundImage: `url(${aboutMeBg})`, bgcolor: 'black', backgroundSize: 'cover', minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
 
-                <div style={{ height: '100vh', display: 'flex', position: 'relative' }}>
-                    <AboutMe />
+                <div style={{ height: '100vh', display: 'flex', position: 'relative' }} id="about-me">
+                    <AboutMe  />
 
                 </div>
                 <Divider color="white" />
                 
-                <div style={{ height: '70vh' }}>
+                <div style={{ height: '70vh' }} id="exp">
                     <Experience />
                 </div>
                 <Divider color="white" />
-                <div style={{ height: '65vh'}}>
-                    <MyWork />  
+                <div style={{ height: '65vh'}} id="mywork">
+                    <MyWork  />  
                 </div>
                 <Divider color="white" />
-                <div style={{ height: '100vh'}}>
-                   <TrainRecog />
+                <div style={{ height: '100vh'}} id="train-recog">
+                   <TrainRecog  />
                 </div>
-                <Divider color="white" />
+                <Divider color="white" id="footer" />
                 <div>
-                   <Footer />
+                   <Footer  />
                 </div>
             </div>
         </div>
