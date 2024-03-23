@@ -8,7 +8,7 @@ const Footer = () => {
             <Typography variant="body1" color="white" gutterBottom>
                 Connect with me:
             </Typography>
-            <IconButton aria-label="LinkedIn" href="www.linkedin.com/in/paliwalpratyush">
+            <IconButton aria-label="LinkedIn" href="https://www.linkedin.com/in/paliwalpratyush">
                 <LinkedIn sx={{ color: 'white' }} />
             </IconButton>
             <IconButton aria-label="Email" href="mailto:paliwalpratyush1510@gmail.com">

@@ -54,11 +54,12 @@ import './Experience.css';
 const Experience = () => {
 
     const [isHovered1, setIsHovered1] = useState(false);
-    const [isHovered2, setIsHovered2] = useState(false);
-    const [isHovered3, setIsHovered3] = useState(false);
-    const [isHovered4, setIsHovered4] = useState(false);
+    const [isHovered2, setIsHovered2] = useState(null);
+    const [isHovered3, setIsHovered3] = useState(null);
+    const [isHovered4, setIsHovered4] = useState(null);
 
     const handleMouseEnter1 = () => {
+        console.log("hhhhh entered mouse hover on 1 ");
         setIsHovered1(true);
     };
 
@@ -67,26 +68,26 @@ const Experience = () => {
     };
 
     const handleMouseEnter2 = () => {
-        setIsHovered2(true);
+        setIsHovered2('highlight');
     };
 
     const handleMouseLeave2 = () => {
-        setIsHovered2(false);
+        setIsHovered2('');
     };
 
     const handleMouseEnter3 = () => {
-        setIsHovered3(true);
+        setIsHovered3('highlight');
     };
 
     const handleMouseLeave3 = () => {
-        setIsHovered3(false);
+        setIsHovered3('');
     };
     const handleMouseEnter4 = () => {
-        setIsHovered4(true);
+        setIsHovered4('highlight');
     };
 
     const handleMouseLeave4 = () => {
-        setIsHovered4(false);
+        setIsHovered4('');
     };
 
     const highlightClass1 = isHovered1 ? 'highlight' : '';
@@ -101,7 +102,7 @@ const Experience = () => {
             <br />
             <Grid container spacing={4} justifyContent="center">
                 <Grid item xs={2.5}>
-                    <Paper elevation={3} className={`grid-item ${highlightClass1}`} onMouseEnter={handleMouseEnter1} onMouseLeave={handleMouseLeave1} style={{ padding: '20px', borderRadius: '15px', display: 'flex', flexDirection: 'column', height: '500px' }}>
+                    <Paper elevation={3} className={`grid-item ${isHovered1 ? 'highlight' : ''}`} onMouseEnter={handleMouseEnter1} onMouseLeave={handleMouseLeave1} style={{ padding: '20px', borderRadius: '15px', display: 'flex', flexDirection: 'column', height: '600px' }}>
                         <Typography variant="h6">Software Engineer - 2</Typography>
                         <Typography variant="h8" style={{ marginBottom: '10px' }}>Feb, 2023 - Present</Typography>
                         {/* <Typography variant="body1" style={{ marginTop: '10px' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</Typography> */}
@@ -122,7 +123,7 @@ const Experience = () => {
 
 
                 <Grid item xs={2.5}>
-                    <Paper elevation={3} className={`grid-item ${highlightClass2}`} onMouseEnter={handleMouseEnter2} onMouseLeave={handleMouseLeave2} style={{ padding: '20px', borderRadius: '15px', display: 'flex', flexDirection: 'column', height: '500px' }}>
+                    <Paper elevation={3} className={`grid-item ${highlightClass2}`} onMouseEnter={handleMouseEnter2} onMouseLeave={handleMouseLeave2} style={{ padding: '20px', borderRadius: '15px', display: 'flex', flexDirection: 'column', height: '600px' }}>
                         <Typography variant="h6">Software Engineer - 1</Typography>
                         <Typography variant="h8" style={{ marginBottom: '10px' }} >Aug, 2021 - Jan, 2023</Typography>
                         {/* <Typography variant="body1" style={{ marginTop: '10px' }}>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography> */}
@@ -148,7 +149,7 @@ options by detailed testing to finalize a suitable application security tool for
                     </Paper>
                 </Grid>
                 <Grid item xs={2.5}>
-                    <Paper elevation={3} className={`grid-item ${highlightClass3}`} onMouseEnter={handleMouseEnter3} onMouseLeave={handleMouseLeave3} style={{ padding: '20px', borderRadius: '15px', display: 'flex', flexDirection: 'column', height: '500px' }}>
+                    <Paper elevation={3} className={`grid-item ${highlightClass3}`} onMouseEnter={handleMouseEnter3} onMouseLeave={handleMouseLeave3} style={{ padding: '20px', borderRadius: '15px', display: 'flex', flexDirection: 'column', height: '600px' }}>
                         <Typography variant="h6">Undergraduate Intern - II</Typography>
                         <Typography variant="h8" style={{ marginBottom: '10px' }}>Feb, 2021 - May, 2021</Typography>
                         {/* <Typography variant="body1" style={{ marginTop: '10px' }}>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography> */}
@@ -158,7 +159,7 @@ options by detailed testing to finalize a suitable application security tool for
                     </Paper>
                 </Grid>
                 <Grid item xs={2.5}>
-                    <Paper elevation={3} className={`grid-item ${highlightClass4}`} onMouseEnter={handleMouseEnter4} onMouseLeave={handleMouseLeave4} style={{ padding: '20px', borderRadius: '15px', display: 'flex', flexDirection: 'column', height: '500px' }}>
+                    <Paper elevation={3} className={`grid-item ${highlightClass4}`} onMouseEnter={handleMouseEnter4} onMouseLeave={handleMouseLeave4} style={{ padding: '20px', borderRadius: '15px', display: 'flex', flexDirection: 'column', height: '600px' }}>
                         <Typography variant="h6">Undergraduate Intern</Typography>
                         <Typography variant="h8" style={{ marginBottom: '10px' }}>May, 2020 - July, 2020</Typography>
                         {/* <Typography variant="body1" style={{ marginTop: '10px' }}>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography> */}

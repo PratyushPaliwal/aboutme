@@ -19,7 +19,7 @@ function Home() {
                 </div>
                 <Divider color="white" />
                 
-                <div style={{ height: '70vh' }} id="exp">
+                <div style={{ height: '90vh' }} id="exp">
                     <Experience />
                 </div>
                 <Divider color="white" />
