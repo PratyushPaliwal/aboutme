@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.c71717d1.css",
-    "main.js": "/static/js/main.7a0a3488.js",
-    "static/media/Workday_Profile_photo.jpg": "/static/media/Workday_Profile_photo.25e7662382c184e9c2d5.jpg",
-    "static/media/About_me_bg.jpg": "/static/media/About_me_bg.1bae61d478b495d6fb6f.jpg",
-    "static/media/icons8-kubernetes.svg": "/static/media/icons8-kubernetes.cfa74b31c12f9f04f877b1621bacd5cd.svg",
-    "static/media/Logo.png": "/static/media/Logo.673bb18a3a4749d93233.png",
-    "static/media/docker_logo.svg": "/static/media/docker_logo.e5037565479ecad55ea855ff851a75f2.svg",
-    "static/media/icons8-react.svg": "/static/media/icons8-react.190ed0da0076fe42504e186e6d95425a.svg",
-    "static/media/favicon.ico": "/static/media/favicon.4fe75d5f9adb18067b85.ico",
-    "static/media/powerapps_logo.svg": "/static/media/powerapps_logo.59c5f31694c56eb617162f403a51c52f.svg",
-    "static/media/python_logo.svg": "/static/media/python_logo.b7dca7431ec705868eb4af0c7a3af670.svg",
-    "index.html": "/index.html",
-    "main.c71717d1.css.map": "/static/css/main.c71717d1.css.map",
-    "main.7a0a3488.js.map": "/static/js/main.7a0a3488.js.map"
+    "main.css": "/aboutme/static/css/main.c71717d1.css",
+    "main.js": "/aboutme/static/js/main.124f4bd7.js",
+    "static/media/Workday_Profile_photo.jpg": "/aboutme/static/media/Workday_Profile_photo.25e7662382c184e9c2d5.jpg",
+    "static/media/About_me_bg.jpg": "/aboutme/static/media/About_me_bg.1bae61d478b495d6fb6f.jpg",
+    "static/media/icons8-kubernetes.svg": "/aboutme/static/media/icons8-kubernetes.cfa74b31c12f9f04f877b1621bacd5cd.svg",
+    "static/media/Logo.png": "/aboutme/static/media/Logo.673bb18a3a4749d93233.png",
+    "static/media/docker_logo.svg": "/aboutme/static/media/docker_logo.e5037565479ecad55ea855ff851a75f2.svg",
+    "static/media/icons8-react.svg": "/aboutme/static/media/icons8-react.190ed0da0076fe42504e186e6d95425a.svg",
+    "static/media/favicon.ico": "/aboutme/static/media/favicon.4fe75d5f9adb18067b85.ico",
+    "static/media/powerapps_logo.svg": "/aboutme/static/media/powerapps_logo.59c5f31694c56eb617162f403a51c52f.svg",
+    "static/media/python_logo.svg": "/aboutme/static/media/python_logo.b7dca7431ec705868eb4af0c7a3af670.svg",
+    "index.html": "/aboutme/index.html",
+    "main.c71717d1.css.map": "/aboutme/static/css/main.c71717d1.css.map",
+    "main.124f4bd7.js.map": "/aboutme/static/js/main.124f4bd7.js.map"
   },
   "entrypoints": [
     "static/css/main.c71717d1.css",
-    "static/js/main.7a0a3488.js"
+    "static/js/main.124f4bd7.js"
   ]
 }
